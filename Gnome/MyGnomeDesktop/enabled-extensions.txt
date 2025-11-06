@@ -1,0 +1,10 @@
+clipboard-indicator@tudmotu.com
+dash-to-dock@micxgx.gmail.com
+gradienttopbar@pshow.org
+just-perfection-desktop@just-perfection
+azclock@azclock.gitlab.com
+topPanelNote@sainathmurali.github.io
+blur-my-shell@aunetx
+just-another-search-bar@xelad0m
+search-light@icedman.github.com
+appindicatorsupport@rgcjonas.gmail.com
