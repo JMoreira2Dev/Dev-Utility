@@ -1,0 +1,88 @@
+# =======================================
+#   Alacritty Config
+#   GNOME + Blur my Shell
+# =======================================
+
+window:
+  decorations: none
+
+  padding:
+    x: 14
+    y: 12
+  dynamic_padding: true
+
+  opacity: 0.85 
+
+  title: "Alacritty"
+  dynamic_title: true
+
+scrolling:
+  history: 10000
+  multiplier: 3
+
+font:
+  normal:
+    family: "Fira Code"
+    style: Regular
+  bold:
+    family: "Fira Code"
+    style: Bold
+  italic:
+    family: "Fira Code"
+    style: Italic
+  size: 13.0
+
+  fallback:
+    - "Roboto Mono"
+    - "monospace"
+
+cursor:
+  style:
+    shape: Beam
+    blinking: On
+  thickness: 0.2
+
+  unfocused_hollow: true
+
+colors:
+  primary:
+    background: '0x0A0B10'  
+    foreground: '0xE6E6E6'
+
+  cursor:
+    text: '0x0A0B10'
+    cursor: '0x80D0FF'  
+
+  selection:
+    text: '0xE6E6E6'
+    background: '0x1A2A3A'
+
+  normal:
+    black:   '0x000000'
+    red:     '0xFF5F5F'
+    green:   '0x5FFF87'
+    yellow:  '0xFFD75F'
+    blue:    '0x5FAFFF'
+    magenta: '0xAF87FF'
+    cyan:    '0x5FFFFF'
+    white:   '0xE6E6E6'
+
+  bright:
+    black:   '0x4C4C4C'
+    red:     '0xFF6C6C'
+    green:   '0x87FF87'
+    yellow:  '0xFFFF87'
+    blue:    '0x87AFFF'
+    magenta: '0xCFA7FF'
+    cyan:    '0x87FFFF'
+    white:   '0xFFFFFF'
+
+selection:
+  save_to_clipboard: true
+
+bell:
+  enabled: false
+
+live_config_reload: true
+dynamic_title: true
+draw_bold_text_with_bright_colors: true

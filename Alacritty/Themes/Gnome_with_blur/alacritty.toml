@@ -1,0 +1,78 @@
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[colors.bright]
+black = "0x4C4C4C"
+blue = "0x87AFFF"
+cyan = "0x87FFFF"
+green = "0x87FF87"
+magenta = "0xCFA7FF"
+red = "0xFF6C6C"
+white = "0xFFFFFF"
+yellow = "0xFFFF87"
+
+[colors.cursor]
+cursor = "0x80D0FF"
+text = "0x0A0B10"
+
+[colors.normal]
+black = "0x000000"
+blue = "0x5FAFFF"
+cyan = "0x5FFFFF"
+green = "0x5FFF87"
+magenta = "0xAF87FF"
+red = "0xFF5F5F"
+white = "0xE6E6E6"
+yellow = "0xFFD75F"
+
+[colors.primary]
+background = "0x0A0B10"
+foreground = "0xE6E6E6"
+
+[colors.selection]
+background = "0x1A2A3A"
+text = "0xE6E6E6"
+
+[cursor]
+thickness = 0.2
+unfocused_hollow = true
+
+[cursor.style]
+blinking = "On"
+shape = "Beam"
+
+[font]
+size = 12.0
+
+[font.bold]
+family = "MesloLGL Nerd Font Mono"
+style = "Bold"
+
+[font.italic]
+family = "MesloLGL Nerd Font Mono"
+style = "Italic"
+
+[font.normal]
+family = "MesloLGL Nerd Font Mono"
+style = "Regular"
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[selection]
+save_to_clipboard = true
+
+[window]
+decorations = "full"
+dynamic_padding = true
+dynamic_title = true
+opacity = 0.80
+title = "Kn1ght"
+
+[window.padding]
+x = 14
+y = 12
+
+[general]
+live_config_reload = true
