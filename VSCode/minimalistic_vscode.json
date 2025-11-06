@@ -1,5 +1,4 @@
 {
-  "workbench.colorTheme": "Tokyo Night",
   "window.menuBarVisibility": "toggle",
   "debug.console.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
   "debug.console.fontSize": 13,
@@ -40,7 +39,9 @@
   "git.confirmSync": false,
   "markdown.preview.markEditorSelection": false,
   "problems.decorations.enabled": false,
-  "scm.diffDecorations": "none",
+  "scm.diffDecorations": "all",
+  "scm.diffDecorationsGutterVisibility": "always",
+  "scm.diffDecorationsGutterWidth": 4,
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.fontSize": 13,
   "terminal.integrated.lineHeight": 1.85,
@@ -62,6 +63,11 @@
   "python.analysis.typeCheckingMode": "standard",
   "window.commandCenter": false,
   "editor.fontSize": 13,
-  "workbench.statusBar.visible": false,
-  "workbench.preferredDarkColorTheme": "GitHub Dark Default"
+  "workbench.preferredDarkColorTheme": "GitHub Dark Default",
+  "workbench.colorCustomizations": {
+    "terminal.background": "#00000000"
+  },
+  "workbench.settings.applyToAllProfiles": [
+    "workbench.colorCustomizations"
+  ],
 }
